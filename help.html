@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Mountain Biking HTML Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="help/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="help/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="help/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="help/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Mountain Biking HTML Template&rdquo; Documentation by &ldquo;Juana&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Mountain Biking HTML Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 2017-09-14<br>
+					By: Juana<br>
+					Email: <a href="mailto:juanapu1107@gmail.com">juanapu1107@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to contact us <a href="http://themeforest.net/user/LightDesigns">Juana&LightDesigns</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<h4>File list</h4>
+		<p>This theme included html,css,js<br>
+		 "index.html" is the home page<br>
+		 "help.html" and "help" folder are the instrution,you can delete them in your own project<br>
+		 "images" folder stores all images in the whole website, you can simply replace images in the "images" folder to customize your own website</p>
+		<img src="./help/images/fileList.png">
+		<h4>structure</h4>
+		<p>This theme is an responsive layout. All of the information is within the <code>&ltbody&gt</code>. The navbar and mainpage carousel animation are included in the <code>&ltheader&gt</code>. The main content is within <code>&ltcontent&gt</code>. Here is the general structure.</p>
+		<img src="help/images/layout.png" alt="HTML Structure" />
+		<p><br>If you would like to change the carousel background images, you would replace the following image links</p>
+		<img src="help/images/carousel.jpg" alt="carousel img" width="100%">
+
+		<p></br>If you would like to edit the text on the carousel animation of first page, you would replace the following text:</p>
+		<img src="help/images/carouselTxt.png" alt="carousel txt" width="100%">
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using one CSS file named "style.css" for all pages in this theme. The file is separated into sections based on the HTML sections and page name.
+
+<pre>	/********common css*************/
+
+	some code
+
+	/******Content css******/
+	
+	some code
+	
+	/******************About Us*********************/
+	
+	some code
+	
+	/*********Gallery ************/
+	
+	some code
+	
+	/**********single post page************/
+
+	some code 
+
+
+	etc, etc. 
+</pre>
+		<p>if you would like to change the navbar color, simply repalce the <code>nav.nabr{background-color: yourColor}</code></p>
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports four Javascript files.</p>
+		
+		<ol>
+			<li>boostrap</li>
+			<li>jQuery</li>
+			<li>js</li>
+			<li>modernizr-custom</li>
+		</ol>
+		  
+		<ol>
+			<li>jQuery and boostrap are a Javascript library that greatly reduces the amount of code that you must write.</li>
+			<li>modernizr-custom is a Javascript plugin that used to apply different effects according to monitor screen size</li>
+			<li>Most of the animation in this site is carried out from the js script. There are a few functions worth looking over.
+			<img src="./help/images/jsLayout.png" width="100%">
+<pre>	$(window).ready(function(){
+	**********************
+	******************
+	})
+	all functions for each page are packed as individual function within $(window).ready. 
+	And all functions are separated by using following code:
+		/********here is homepage****************/	
+			some code 
+
+	/************About Us page**************/
+			some code 
+
+</pre>
+			</li>
+			<li>Explanation for each main function</li>
+<pre>
+	init()  :using to set header's hight when screen is resized
+	carouselEnable():  boostrap carousel function, it is used to control the carousel animation in the first page
+	programEft()    : add images ratate effects while crolling
+	wordEft()       : add effects to all letters of header ---"STOBBÀN --GETONYOURBIKEANDEXPORE PLAN YOUR TRIP "
+	
+</pre>
+			
+		</ol>
+		
+		<hr>
+		
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>All images and icons are provided by Edin
+				
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Juana</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
