@@ -22,28 +22,28 @@ content{
 }
 @font-face{
 	font-family: "Lato-Black";
-	src: url("../fonts/Lato-Black.ttf");
+	src: url("http://7xsoic.com1.z0.glb.clouddn.com/edin/fonts/Lato-Black.ttf");
 }
 @font-face{
 	font-family: "Lato-Regular";
-	src: url("../fonts/Lato-Regular.ttf");
+	src: url("http://7xsoic.com1.z0.glb.clouddn.com/edin/fonts/Lato-Regular.ttf");
 }
 @font-face{
 	font-family: "Lato-Italic";
-	src: url("../fonts/Lato-Italic.ttf");
+	src: url("http://7xsoic.com1.z0.glb.clouddn.com/edin/fonts/Lato-Italic.ttf");
 }
 @font-face{
 	font-family: "Lato-Bold";
-	src: url("../fonts/Lato-Bold.ttf");
+	src: url("http://7xsoic.com1.z0.glb.clouddn.com/edin/fonts/Lato-Bold.ttf");
 }
 
 @font-face{
 	font-family: "moonBold";
-	src: url("../fonts/moonBold.otf");
+	src: url("http://7xsoic.com1.z0.glb.clouddn.com/edin/fonts/moonBold.otf");
 }
 @font-face{
 	font-family: "MyriadPro-Bold";
-	src: url("../fonts/MyriadPro-Bold.otf");
+	src: url("http://7xsoic.com1.z0.glb.clouddn.com/edin/fonts/MyriadPro-Bold.otf");
 }
 
 content{
